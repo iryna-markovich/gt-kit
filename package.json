@@ -2,12 +2,19 @@
   "name": "gt-kit",
   "description": "GT UI design system",
   "author": "Iryna Markovich",
-  "keywords": ["react", "ui", "design"],
+  "keywords": [
+    "react",
+    "ui",
+    "design"
+  ],
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iryna-markovich/gt-kit.git"
@@ -53,5 +60,10 @@
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/iryna-markovich/gt-kit/issues"
+  },
+  "homepage": "https://github.com/iryna-markovich/gt-kit#readme",
+  "license": "ISC"
 }
