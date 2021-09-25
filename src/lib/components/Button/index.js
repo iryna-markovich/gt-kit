@@ -2,6 +2,7 @@ import React from 'react'
 import config from '../config'
 
 const Button = (props) => {
+  const theme = config.theme ? config.theme : 'red'
   return (
     <button
       className={`${config.lib}-btn ${config.lib}-btn--${props.type} ${props.className}`}
@@ -11,6 +12,7 @@ const Button = (props) => {
       value={props.value}
       disabled={props.disabled}
       onClick={props.onClick}
+      style={{ background: theme }}
     >
       {props.children}
     </button>
