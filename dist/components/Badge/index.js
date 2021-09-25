@@ -7,14 +7,15 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _config = _interopRequireDefault(require("../config"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const Badge = props => {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "badge ".concat(!props.value ? 'badge--none' : '', " ")
-  }, /*#__PURE__*/_react.default.createElement("h4", {
-    className: "heavy"
-  }, props.value || 0));
+    className: "".concat(_config.default.lib, "-badge ").concat(_config.default.lib, "-badge--").concat(props.type, " ").concat(props.className),
+    "data-id": props.id
+  }, props.children);
 };
 
 var _default = Badge;

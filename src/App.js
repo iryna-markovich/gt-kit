@@ -1,11 +1,11 @@
-import Button from './lib/components/Button'
+import { Button } from './lib'
 
 function App() {
   return (
-    <div className="App">
-      <Button label='hh' onClick={()=>{}} />
+    <div className='App'>
+      <Button onClick={() => {}}>fgfgfg</Button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
