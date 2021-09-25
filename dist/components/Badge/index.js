@@ -9,6 +9,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _config = _interopRequireDefault(require("../config"));
 
+var _index = _interopRequireDefault(require("./index.css"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const Badge = props => {

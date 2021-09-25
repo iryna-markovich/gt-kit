@@ -9,11 +9,15 @@ var _react = _interopRequireDefault(require("react"));
 
 var _config = _interopRequireDefault(require("../config"));
 
+require("./index.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const lib = _config.default.lib;
 
 const Button = props => {
   return /*#__PURE__*/_react.default.createElement("button", {
-    className: "".concat(_config.default.lib, "-btn ").concat(_config.default.lib, "-btn--").concat(props.type, " ").concat(props.className),
+    className: "".concat(lib, "-btn ").concat(lib, "-btn--").concat(props.type, " ").concat(props.className),
     "data-id": props.id,
     type: props.type,
     name: props.name,
