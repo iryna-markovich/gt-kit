@@ -5,8 +5,6 @@
   border-radius: var(--size-base-4);
   padding-left: var(--size-base-20);
   padding-right: var(--size-base-20);
-
-  margin: 10px;
 }
 
 .gt-btn:disabled,
