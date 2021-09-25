@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _config = _interopRequireDefault(require("../../../config"));
+var _config = _interopRequireDefault(require("../../config"));
 
 require("./index.css");
 
