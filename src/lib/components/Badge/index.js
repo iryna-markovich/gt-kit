@@ -1,5 +1,6 @@
 import React from 'react'
 import config from '../config'
+import styles from './index.css'
 
 const Badge = (props) => {
   return (
