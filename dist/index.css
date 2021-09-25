@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
 :root {
-  --main-ginger: #ff9628;
+  --main-ginger: #fc7c49;
+  --light-ginger: #ff55381a;
+  --dark-ginger: #ff5538;
+  --gradient-ginger: linear-gradient(
+    45deg,
+    var(--main-ginger),
+    var(--dark-ginger)
+  );
+
   --main-leaf: #46b90d;
+  --main-cherry: #900c3e;
+
+  --main-fiord: #070707;
+  --light-fiord: #7a8db0;
+  --dark-fiord: #3c4a61;
+
+  --grey: #a8b5be;
+  --grey-light: #f8f9fa;
+
+  --light: #ffffff;
+  --clear: transparent;
+
+  --font-primary: 'Comfortaa';
+  --font-secondary: 'Open Sans';
+
+  --size-base-10: 10px;
+  --size-base-2: 2px;
+  --size-base-4: 4px;
+  --size-base-12: 12px;
+  --size-base-20: 20px;
+  --size-base-32: 32px;
+  --size-base-42: 42px;
+  --size-base-52: 52px;
+
+  --size-xs: 12px;
+  --size-s: 14px;
+  --size-m: 16px;
+  --size-l: 18px;
+  --size-xl: 22px;
 }

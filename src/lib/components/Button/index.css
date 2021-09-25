@@ -1,5 +1,64 @@
-/* @import '../../themes/ginger.css'; */
+.gt-btn {
+  font-family: var(--font-secondary);
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: var(--size-base-4);
+  padding-left: var(--size-base-20);
+  padding-right: var(--size-base-20);
 
-button {
-  color: red;
+  margin: 10px;
+}
+
+.gt-btn:disabled,
+.gt-btn:disabled:hover {
+  cursor: not-allowed;
+}
+
+.gt-btn--primary {
+  border: none;
+  color: var(--light);
+}
+
+.gt-btn--primary:disabled,
+.gt-btn--primary:disabled:hover {
+  background: var(--grey);
+  color: var(--grey-light);
+}
+
+.gt-btn--secondary {
+  border: 1px solid;
+  background-color: var(--light);
+}
+
+.gt-btn--secondary:disabled,
+.gt-btn--secondary:disabled:hover {
+  border: 1px solid var(--grey);
+  background: var(--grey-light);
+  color: var(--grey);
+}
+
+.gt-btn--default {
+  border: none;
+  background-color: var(--clear);
+}
+
+.gt-btn--default:disabled,
+.gt-btn--default:disabled:hover {
+  background: var(--grey-light);
+  color: var(--grey);
+}
+
+.gt-btn--s {
+  font-size: var(--size-s);
+  height: var(--size-base-32);
+}
+
+.gt-btn--m {
+  font-size: var(--size-m);
+  height: var(--size-base-42);
+}
+
+.gt-btn--l {
+  font-size: var(--size-l);
+  height: var(--size-base-52);
 }

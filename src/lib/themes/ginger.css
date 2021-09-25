@@ -1,5 +1,26 @@
 @import '../index.css';
 
-button {
-  background-color: var(--main-ginger);
+.gt-btn--primary {
+  background: var(--gradient-ginger);
+}
+
+.gt-btn--primary:hover {
+  background: var(--main-ginger);
+}
+
+.gt-btn--secondary {
+  border-color: var(--main-ginger);
+  color: var(--main-ginger);
+}
+
+.gt-btn--secondary:hover {
+  background: var(--light-ginger);
+}
+
+.gt-btn--default {
+  color: var(--main-ginger);
+}
+
+.gt-btn--default:hover {
+  background: var(--light-ginger);
 }

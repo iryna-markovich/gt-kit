@@ -9,15 +9,7 @@ Object.defineProperty(exports, "Button", {
     return _Button.default;
   }
 });
-Object.defineProperty(exports, "Badge", {
-  enumerable: true,
-  get: function get() {
-    return _Badge.default;
-  }
-});
 
 var _Button = _interopRequireDefault(require("./components/Button"));
-
-var _Badge = _interopRequireDefault(require("./components/Badge"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
