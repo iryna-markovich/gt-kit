@@ -1,0 +1,9 @@
+.gt-main {
+  display: inline-block;
+  float: right;
+  background: var(--grey-light);
+  height: 100vh;
+  width: calc(100vw - 240px);
+  box-sizing: border-box;
+  padding: var(--size-base-20);
+}
