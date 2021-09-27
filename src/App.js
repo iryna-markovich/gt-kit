@@ -1,9 +1,19 @@
-import { Button } from './lib'
+import { Button, Menu, Main } from './lib'
 
 function App() {
+  const dataMenu = [
+    { key: 'hhh', name: 'Profile', link: '/', icon: 'profile' },
+    { key: 'hhyh', name: 'People', link: '/j' },
+  ]
   return (
     <div className='App'>
-      <Button type='primary' disabled size='l' onClick={() => {}}>
+      <Menu title={'People'} dataList={dataMenu} />
+      <Main>
+        <div>ii</div>
+        <div>ii</div>
+      </Main>
+
+      {/* <Button type='primary' disabled size='l' onClick={() => {}}>
         fgfgfg
       </Button>
       <Button type='secondary' disabled size='l' onClick={() => {}}>
@@ -32,7 +42,7 @@ function App() {
       </Button>
       <Button size='s' onClick={() => {}}>
         fgfgfg
-      </Button>
+      </Button> */}
     </div>
   )
 }

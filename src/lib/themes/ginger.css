@@ -24,3 +24,13 @@
 .gt-btn--default:hover {
   background: var(--light-ginger);
 }
+
+.gt-menu > a:hover {
+  color: var(--main-ginger);
+  background: var(--op-fiord);
+}
+
+.gt-menu > a:active,
+.gt-menu > a:focus {
+  background: var(--gradient-ginger);
+}

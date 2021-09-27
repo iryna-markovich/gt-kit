@@ -10,7 +10,7 @@
 // Calendar
 // Card
 // Dropdown
-// Menu 
+// Menu
 // Checkbox
 // DatePicker
 // Input
@@ -33,5 +33,9 @@
 
 import Button from './components/Button'
 import Badge from './components/Badge'
+import Main from './components/Main'
+import Menu from './components/Menu'
+import Divider from './components/Divider'
+import Services from './components/Services'
 
-export { Badge, Button }
+export { Badge, Button, Divider, Main, Menu, Services }

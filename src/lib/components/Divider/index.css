@@ -1,0 +1,9 @@
+.gt-divider {
+  display: block;
+  background: var(--op-fiord);
+  height: 1px;
+  margin-right: var(--size-base--28);
+  margin-top: var(--size-base-20);
+  margin-bottom: var(--size-base-28);
+  box-sizing: border-box;
+}

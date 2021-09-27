@@ -1,0 +1,51 @@
+@import '../../themes/ginger.css';
+
+.gt-menu {
+  background: var(--main-fiord);
+  width: 240px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-right: var(--size-base-28);
+  padding-top: var(--size-base-20);
+  padding-bottom: var(--size-base-20);
+  display: inline-block;
+}
+
+.gt-menu > a {
+  font-family: var(--font-primary);
+  font-size: var(--size-s);
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 0 var(--size-base-4) var(--size-base-4) 0;
+  display: block;
+  padding-left: var(--size-base-20);
+  height: var(--size-base-42);
+  line-height: var(--size-base-42);
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: var(--size-base-4);
+  color: var(--light-fiord);
+}
+
+.gt-menu > a:last-child {
+  margin-bottom: 0;
+}
+
+.gt-menu > a:hover {
+  border-radius: 0 var(--size-base-4) var(--size-base-4) 0;
+  display: block;
+}
+
+.gt-menu > a:active,
+.gt-menu > a:focus {
+  color: var(--light);
+  background: var(--gradient-ginger);
+}
+
+.gt-menu-title {
+  font-family: var(--font-primary);
+  font-size: var(--size-s);
+  color: var(--op-fiord-2);
+  margin-bottom: var(--size-base-20);
+  padding-left: var(--size-base-20);
+}
